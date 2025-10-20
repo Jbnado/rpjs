@@ -1,0 +1,42 @@
+---
+import Button from '../components/ButtonNav.astro';
+---
+<nav class="nav-Bar">
+    <Button class="logo" href="/" label="RP.js"/>
+    <div class="link">
+        <a href="/">Proximo Evento</a>
+        <a href="/">Palestrantes</a>
+        <a href="/">Galeria</a>
+        <Button href="/inscricao" label="Inscreva-se"/>
+    </div>
+</nav>
+
+
+
+<style>
+.nav-Bar {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px 0 0px;
+
+}
+.nav-Bar a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+    
+</style>
