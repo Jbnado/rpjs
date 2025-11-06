@@ -1,11 +1,36 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+import "../styles/buttons.css";
+import "../styles/header.css";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<header class="hero-section">
+		<div class="logo-container">
+			<h1 class="js">JavaScript <br /> Meetup</h1>
+			<h3>
+				Conectando desenvolvedores, compartilhando <br />
+				conhecimento e construindo o futuro do JavaScript
+			</h3>
+			<button class="btn btn-primary">Se inscrever</button>
+			<button class="btn btn-secondary">Eventos Anteriores</button>
+		</div>
+		<div class="card-proximo-evento">
+			<button class="btn btn-next">próximo</button>
+			<h2 id="react-performance-title">React 18 & Performance</h2>
+			<p id="data-proximo-evento">Data: 15 de Novembro, 2025</p>
+			<p id="hora-proximo-evento">19:00 - 22:00</p>
+		</div>
+	</header>
+
+	
 </Layout>
+
+
+
+
