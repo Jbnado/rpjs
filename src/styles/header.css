@@ -1,0 +1,42 @@
+
+.hero-section { 
+    padding: 4rem 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+}
+.logo-container .js
+{ 
+    font-size: 5rem;  
+    font-weight: bold;
+}
+.logo-container h3 
+{ 
+    margin: 1rem 0 2rem 0;
+    font-size: 1.5rem;
+    color: #1F2937; 
+    font-weight: 400; 
+}   
+
+.card-proximo-evento {
+    margin-left: 60px;
+    padding: 2rem 12rem 2rem 2rem;
+    outline: 28px solid #000000; 
+    border-radius: 1px;
+    text-align: left;
+}
+ #react-performance-title {
+     margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+
+#data-proximo-evento {
+    color: #1F2937;
+}
+
+#horario-proximo-evento {
+    font-weight: bold;
+}
+
